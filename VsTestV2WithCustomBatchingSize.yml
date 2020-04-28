@@ -1,7 +1,5 @@
-# The objective is to perform VSTESTV2 with default values
+# The objective is to perform VSTESTV2 with custom batching size
 
-trigger:
-- master
 jobs:
 - job: RunTest1
   displayName: 'Run Tests'
